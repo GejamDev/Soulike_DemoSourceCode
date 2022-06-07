@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4e39aa1b135564ab51ff579a47eedd, type: 3}
+  m_Name: TestSword
+  m_EditorClassIdentifier: 
+  runSpeedWhenHolding: 0.85
+  damage: 60
+  walkSpeedWhenAttak: 0.5
+  attackTime: 1
+  reloadTime: 0.2
+  damageDelay: 0.6
+  type: 0
+  attackPrefab: {fileID: 1424308185794721316, guid: aed64de0409728d4a86d9e2a97b0a23e, type: 3}
+  attackLastTime: 0.1
+  attackAnimation: {fileID: 7400000, guid: b37a8e5fc1288774c80840ec34b9df33, type: 2}
+  hasCamShake: 1
+  camShakeTime: 0.1
+  camShakeIntensity: 3
+  camShakeFade: 1
+  hasCamShakeOnHit: 1
+  camShakeTimeOnHit: 0.1
+  camShakeIntensityOnHit: 15
+  camShakeFadeOnHit: 1

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4e39aa1b135564ab51ff579a47eedd, type: 3}
+  m_Name: Slapper
+  m_EditorClassIdentifier: 
+  runSpeedWhenHolding: 1
+  damage: 30
+  walkSpeedWhenAttak: 0.7
+  attackTime: 0.8
+  reloadTime: 0.2
+  damageDelay: 0.5
+  type: 0
+  attackPrefab: {fileID: 1424308185794721316, guid: bcdf9bad8e0b2104f9f956ed80046606,
+    type: 3}
+  attackLastTime: 0.1
+  attackAnimation: {fileID: 7400000, guid: 950d958540a68524280ac26e055d2198, type: 2}
+  hasCamShake: 1
+  camShakeTime: 0.1
+  camShakeIntensity: 1
+  camShakeFade: 1
+  hasCamShakeOnHit: 1
+  camShakeTimeOnHit: 0.1
+  camShakeIntensityOnHit: 10
+  camShakeFadeOnHit: 1
+  instantSound: 
+  attackSound: Slap
+  hitSound: SlapHit
